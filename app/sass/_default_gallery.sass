@@ -1,0 +1,41 @@
+div.default-gallery-container
+
+h2.default-gallery-title
+	text-align: center
+	padding: 2em 0 2em 0
+	border-top: 1px solid #97979f
+	border-bottom: 1px solid #97979f
+
+section.default-gallery
+	text-align: center
+
+section.default-gallery-top
+	@media screen and (max-width: 763px)
+		display: inline-block
+		width: 50%
+
+section.default-gallery-bottom
+	@media screen and (max-width: 763px)
+		display: inline-block
+		width: 50%
+
+a.default-gallery-link
+
+img.default-gallery-img
+	width: 24.7em
+	height: 16em
+	@media screen and (max-width: 1423px)
+		width: 25%
+		height: 30%
+	@media screen and (max-width: 993px)
+		width: 24.5%
+		height: 30%
+	@media screen and (max-width: 912px)
+		width: 24.4%
+		height: 29.9%
+	@media screen and (max-width: 763px)
+		display: block
+		width: 100%
+		height: 100%
+	&:hover
+		box-shadow: 0px 0px 10px #97979f

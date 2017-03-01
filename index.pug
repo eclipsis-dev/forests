@@ -1,0 +1,31 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title Forests
+		link(rel="stylesheet" href="app/css/styles.css")
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+		link(rel="stylesheet" href="app/magnific-popup/magnific-popup.css")
+		link(rel="stylesheet" type="text/css" href="app/slick-master/slick/slick.css")
+		link(rel="stylesheet" type="text/css" href="app/slick-master/slick/slick-theme.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous") 
+	body
+		.container-fluid
+			include app/pug/header.pug
+
+			include app/pug/part-1.pug
+
+			include app/pug/default_gallery.pug
+
+			include app/pug/part-3.pug
+
+			include app/pug/form.pug
+
+			include app/pug/footer.pug
+		
+		script(type="text/javascript" src="app/js/script.js")
+		script(type="text/javascript" src="app/slick-master/slick/slick.min.js")
+		script(type="text/javascript" src="app/magnific-popup/jquery.magnific-popup.min.js")
